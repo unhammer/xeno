@@ -1,3 +1,6 @@
 resolver: lts-18.19
 packages:
 - '.'
+
+nix:
+    packages: [bzip2]
