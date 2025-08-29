@@ -1,0 +1,9 @@
+resolver: lts-22.44
+packages:
+- '.'
+
+nix:
+    packages: [bzip2]
+
+ghc-options:
+    "$locals": -rtsopts -O2 -finfo-table-map
